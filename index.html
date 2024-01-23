@@ -13,9 +13,9 @@
             <section id="sectionForm">
                 <h1>Adicione seus <span>Contatos</span></h1>
                 <p>Uma nova forma para salvar seus contatos favoritos.</p>
-                <form>
-                    <input type="text" required placeholder="Nome do contato">
-                    <input type="number" required placeholder="Telefone do contato">
+                <form id="formContact">
+                    <input type="text" id="nameContact" autocomplete="off" required placeholder="Nome do contato">
+                    <input type="tel" id="numberContact" autocomplete="off" required placeholder="Telefone do contato">
                     <button type="submit">Adicionar</button>
                 </form>
             </section>
@@ -28,14 +28,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Nicolas Floriano</td>
-                            <td><a href="tel:11941078577">(11) 94107-8577</a></td>
-                        </tr>
-                        <tr>
-                            <td>Selma Soares</td>
-                            <td><a href="tel:11941078577">(11) 94107-8577</a></td>
-                        </tr>
                     </tbody>
                 </table>
             </section>
