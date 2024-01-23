@@ -52,6 +52,7 @@ p{
     #6029b2, #424ca3, #3b7a8e,
     #385fa3);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 500% 500%;
     animation: gradient 15s ease-in-out infinite;
