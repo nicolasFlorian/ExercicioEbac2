@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: radial-gradient(70% 80% at 100% 80%, #4828bb 15%, rgba(247, 122, 122, 0.00) 100%),
+                radial-gradient(90% 80% at -10% 25%, #095e7a 15%, rgba(247, 122, 122, 0.00) 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    border: 1px solid rgba(231, 231, 231, 0.60);
+    background: rgba(238, 238, 238, 0.50);
+    box-shadow: 0px 5px 50px 15px rgba(0, 0, 0, 0.05);
+    padding: 45px;
+    border-radius: 50px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+#card section{
+    width: 500px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#sectionForm h1{
+    color: #F7F7F7;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#sectionForm h1 span{
+    color: #507C7F;
+}
+
+#sectionForm p{
+    width: 360px;
+    color: #F7F7F7;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#sectionForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 335px;
+}
+
+#sectionForm form input{
+    height: 45px;
+    padding: 16px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+    color: #ffffff;
+}
+
+#sectionForm form input::placeholder{
+    color: rgba(247, 247, 247, 0.9);
+}
+
+#sectionForm form button{
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgba(80, 124, 127, 0.3);
+    background-color: rgba(80, 124, 127, 0.6);
+    color: #FFF;
+}
+
+#sectionForm form button:hover{
+    background-color: #507C7F;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#sectionTable table{
+    width: 100%;
+}
+
+#sectionTable table thead tr th{
+    color: #507C7F;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(80, 124, 127, 0.4);
+    text-align: left;
+    padding: 8px 16px;
+}
+
+#sectionTable table tbody tr:first-child td{
+    padding-top: 16px;
+}
+
+#sectionTable table tbody tr td{
+    padding: 8px 16px;
+    color: #507C7F;
+}
+
+#sectionTable table tbody tr td a{
+    color: #507C7F;
+}
+
+#credits{
+    position: absolute;
+    bottom: 30px;
+    color: #FFF;
+}
