@@ -45,7 +45,22 @@ p{
 }
 
 #sectionForm h1 span{
-    color: #507C7F;
+    font-weight: 700;
+    background: linear-gradient(
+    130deg, #1c7795, #385fa3,
+    #524ca8, #5d45b1, #4d3699,
+    #6029b2, #424ca3, #3b7a8e,
+    #385fa3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500%;
+    animation: gradient 15s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
 #sectionForm p{
@@ -83,10 +98,11 @@ p{
     border: 1px solid rgba(80, 124, 127, 0.3);
     background-color: rgba(80, 124, 127, 0.6);
     color: #FFF;
+    font-weight: 500;
 }
 
 #sectionForm form button:hover{
-    background-color: #507C7F;
+    background-color: #366468;
     transition: all 0.3s ease;
     cursor: pointer;
 }
